@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldhebarán - Enlaces Oficiales</title>
+    <!-- Importamos iconos de FontAwesome para que se vea profesional -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Importamos una fuente elegante de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* He puesto un color azul oscuro elegante, típico de fundaciones */
+            --color-principal: #1a3c5e; 
+            --color-secundario: #2c3e50;
+            --color-fondo: #f4f6f8;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--color-fondo);
+            /* Fondo sutil y elegante */
+            background-image: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .tarjeta-perfil {
+            background: white;
+            width: 85%;
+            max-width: 400px;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        /* AJUSTE PARA LOGO RECTANGULAR */
+        .logo-contenedor {
+            width: 100%;
+            max-width: 220px; /* Hice más ancho el espacio para que quepa bien */
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-contenedor img {
+            width: 100%;
+            height: auto; /* Esto mantiene la proporción correcta */
+            object-fit: contain;
+        }
+
+        h1 {
+            color: var(--color-principal);
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        p.slogan {
+            color: #7f8c8d;
+            font-size: 0.95rem;
+            margin-bottom: 35px;
+            line-height: 1.5;
+        }
+
+        .boton-enlace {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: white;
+            color: var(--color-secundario);
+            text-decoration: none;
+            padding: 16px 20px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            border: 1px solid #e0e0e0;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .boton-enlace:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            border-color: var(--color-principal);
+            background-color: #fcfcfc;
+        }
+
+        .boton-enlace i {
+            font-size: 1.3rem;
+            margin-right: 15px;
+            width: 30px;
+            text-align: center;
+            color: var(--color-principal);
+        }
+
+        /* Colores sutiles al pasar el mouse */
+        .instagram:hover i { color: #E1306C; }
+        .web:hover i { color: #0077b5; }
+        .noticias:hover i { color: #27ae60; }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.75rem;
+            color: #bdc3c7;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tarjeta-perfil">
+        <!-- LOGO ACTUALIZADO -->
+        <div class="logo-contenedor">
+            <img src="https://fundacionculturalaldhebaran.org/wp-content/uploads/2023/09/Aldhebaran_lab-08-1-1024x468.png" alt="Fundación Cultural Aldhebarán">
+        </div>
+
+        <!-- TÍTULO -->
+        <h1>Aldhebarán</h1>
+        <p class="slogan">Fundación Cultural</p>
+
+        <!-- BOTÓN 1: PÁGINA OFICIAL (Actualizado) -->
+        <a href="https://fundacionculturalaldhebaran.org/" class="boton-enlace web" target="_blank">
+            <i class="fas fa-globe"></i>
+            Visita nuestro Sitio Web
+        </a>
+
+        <!-- BOTÓN 2: INSTAGRAM (Actualizado) -->
+        <a href="https://www.instagram.com/fundacion_cultural_aldhebaran_/" class="boton-enlace instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+            Síguenos en Instagram
+        </a>
+
+        <!-- BOTÓN 3: NOTICIAS (Pendiente) -->
+        <!-- Cuando tengas el link, cambia el signo de gato '#' por la url -->
+        <a href="#" class="boton-enlace noticias">
+            <i class="far fa-newspaper"></i>
+            Noticias y Artículos
+        </a>
+
+        <footer>
+            Conecta con un toque
+        </footer>
+    </div>
+
+</body>
+</html>
